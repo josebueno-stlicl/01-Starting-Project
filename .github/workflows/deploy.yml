@@ -9,7 +9,7 @@ env:
 jobs:
   test:
     env: 
-      MONGO_CLUSTER_ADDRESS: cluster0.fyaamep.mongodb.net
+      MONGO_CLUSTER_ADDRESS: cluster0.fyaamep.mongodb.net/?appName=Cluster0
       MONGO_DB_USERNAME: jlbuenot_db_user
       MONGO_DB_PASSWORD: hGc7iuNEMnwk7o8T
       PORT: 8080

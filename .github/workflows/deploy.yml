@@ -36,5 +36,4 @@ jobs:
     steps:
       - name: Output information
         run: |        
-          
           ECHO "MONGO_DB_NAME:${{ env.MONGO_DB_NAME }}"
